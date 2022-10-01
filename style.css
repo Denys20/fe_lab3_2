@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: bisque;
+    height: 100vh;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+}
+.block_header{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.img1, .img2, .text1, .text2, .text3{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.img1{
+    background-color: rgb(55, 252, 153);
+    width: 30vw;
+    height: 90vh;
+}
+.text1{
+    background-color: rgb(118, 198, 255);
+    width: 70vw;
+    height: 10vh;
+}
+.img2{
+    background-color: rgb(255, 255, 116);
+    width: 40vw;
+    height: 80vh;
+}
+.text2{
+    background-color: rgb(255, 140, 243);
+    width: 30vw;
+    height: 90vh;
+}
+.text3{
+    background-color: orange;
+    width: 70vw;
+    height: 10vh;
+    margin-top: -10vh;
+}
+
